@@ -1,0 +1,210 @@
+/*
+ ==========================
+ - Colors
+ ==========================
+ */
+body {
+  font-family: 'Lato';
+  background-color: #ffffff;
+  color: #3e4058;
+  font-size: 16px; }
+
+/*
+ ==========================
+ - Header
+ ==========================
+ */
+.header-wrapper {
+  background: url('../images/swirl_pattern.png');
+  border-bottom: 2px solid #3e4056;
+}
+.color-wrapper {
+  background-color: hsla(266, 40%, 50%, 0.8);
+}
+footer {
+  padding-top: 10px;
+  background-color: hsla(266, 40%, 50%, 0.8);
+}
+
+.header-wrapper h1 {
+  font-size: 55px;
+  font-family: 'Lobster', cursive;
+  color: #3e4056;
+  text-align: center; }
+.header-wrapper h1 a, .header-wrapper h1 a:hover, .header-wrapper h1 a:focus {
+  color: #3e4056;
+  text-decoration: none;
+}
+
+/*
+ ==========================
+ - Navigation
+ ==========================
+ */
+.menu {
+  width: 100%; }
+
+nav {
+  padding-top: 20px; }
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  text-align: center; }
+
+nav ul li {
+  list-style-type: none;
+  padding: 5px 20px;
+  display: inline-block;
+  text-align: center; }
+nav ul li a {
+  color: #fff; }
+nav ul li.active a, nav ul li:hover, nav ul li:focus, nav ul li a:hover, nav ul li a:focus {
+  border-bottom: 0;
+  text-decoration: none;
+  color: #3e4056;
+  transition: 0.2s all;
+}
+
+/*
+ ==========================
+ - Sections
+ ==========================
+ */
+.welcome {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.main-content {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#00b9cc+0,99c7cc+60 */
+background: #00b9cc; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwYjljYyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjYwJSIgc3RvcC1jb2xvcj0iIzk5YzdjYyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+background: -moz-linear-gradient(top,  #00b9cc 0%, #99c7cc 60%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#00b9cc), color-stop(60%,#99c7cc)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #00b9cc 0%,#99c7cc 60%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #00b9cc 0%,#99c7cc 60%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #00b9cc 0%,#99c7cc 60%); /* IE10+ */
+background: linear-gradient(to bottom,  #00b9cc 0%,#99c7cc 60%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00b9cc', endColorstr='#99c7cc',GradientType=0 ); /* IE6-8 */
+  /*background-image: url('../images/swirl_pattern.png');*/
+  padding: 30px 0;
+}
+.main-content .container {
+  background-color: rgba(255,255,255,0.7);
+  border-radius: 20px;
+  padding: 30px;
+}
+.main-content .container hr {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-top: 1px dashed #333;
+}
+.main-content h1 {
+  font-size: 44px;
+  margin-bottom: 0;
+  letter-spacing: 2px;
+}
+.main-content h3 {
+  margin-top: 30px;
+  margin-bottom: 5px;
+  font-size: 33px;
+  color: #00B9CC;
+}
+ul li, ol li, .main-content p {
+  font-size: 20px;
+  padding: 5px;
+  font-family: 'Lato';
+}
+
+h3.photo-title {
+  font-size: 23px;
+  color: black;
+  margin-bottom: 5px;
+}
+.photo {
+  display: inline-block;
+  border: 1px solid #ccc; }
+
+.photo img {
+  width: 100%;
+  border: 5px solid #fff; }
+
+figcaption {
+  padding: 5px;
+  font-size: 12px;
+  text-align: center; }
+
+.references {
+  word-wrap: break-word;
+  margin-top: 20px;
+}
+/*
+ ==========================
+ - Quiz
+ ==========================
+ */
+
+.questions ul {
+  list-style: none;
+}
+.results {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 80px;
+}
+.button {
+  background-color: #fff;
+  border: 2px solid #00B9CC;
+  padding: 4px 20px;
+  font-family: 'Lato';
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.correct {
+  color: green;
+}
+.incorrect {
+  color: red;
+}
+
+/*
+ ==========================
+ - Footer
+ ==========================
+ */
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.main-content {
+  flex: 1;
+}
+
+footer {
+  border-top: 2px solid #3e4056; }
+footer p, footer p a{
+  font-family: 'Lato';
+  color: #fff;
+  text-align: center;
+}
+footer p a {
+  font-size: 15px;
+}
+
+#carousel-example-generic {
+  margin: 0 auto;
+  width: 50%;
+}
+
+#carousel-example-generic .item img {
+  margin: 0 auto;
+}
+
+#carousel-example-generic .left, #carousel-example-generic .right {
+  background-image: none;
+  color: hsl(186, 100%, 40%);
+}

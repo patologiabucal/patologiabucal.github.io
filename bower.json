@@ -1,0 +1,19 @@
+{
+  "name": "pathologies-offline",
+  "version": "0.1",
+  "description": "Pathologies",
+  "keywords": [
+    "Pathologies"
+  ],
+  "authors": [
+    "Alessandro Ceccarello"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
